@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid #000;
+    margin: 200px auto;
+    text-align: center;
+    padding-top: 50px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #6ad8dc;
+}
+
+h1 {
+    opacity: 0%;
+    transition: 0.8s;
+    color: aliceblue;
+}
+
+.box:hover h1 {
+    display: block;
+    opacity: 100%;
+}
+
+.box:active {
+    width: 200px;
+    height: 150px;
+}
+
+input {
+    height: 50px;
+    transition: 1.3s;
+}
+
+input:focus {
+    background-color: #c462c9;
+    border: 1px solid #000;
+    width: 130px;
+    height: 30px;
+}
+
+.section {
+    width: 700px;
+    height: 500px;
+    background-color: #89dd6f;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.section__text {
+    font-size: 17px;
+}
+
+.section__box {
+    width: 650px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.section__img {
+    width: 600px;
+}
+
+.section:hover .section__text {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.section__box:hover .section__img {
+    width: 400px;
+}
+
+.list {
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.list-item:nth-child(3) {
+    background-color: #ff0000;
+}
+
+.list-item {
+    text-align: center;
+}
+
+.list-item:nth-child(1) {
+    background-color: #f9f472;
+    font-size: 30px;
+}
+
+.list-item:nth-child(2):hover {
+    background-color: #646cff;
+}
+
+.list:hover .list-item:nth-child(4) {
+    background-color: #ff6eca;
+}
+
+.block {
+    background-image: url(https://www.gannett-cdn.com/presto/2019/07/09/USAT/9933c0ab-5c4a-4283-bf19-debb4aeefb2c-EPA_SPACE_PHOTO_ESSAY_MOON_LANDING_ANNIVERSARY.5.jpg?crop=2479,1394,x1,y230&width=3200&height=1680&fit=bounds);
+    height: 1281px;
+}
+
+.block__item {
+    background-color: #181c44;
+    width: 600px;
+    height: 600px;
+    transition: 1.5s;
+}
+
+.item-title {
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+}
+
+.itemm__box {}
+
+.moon {
+    width: 400px;
+    margin-left: 80px;
+    transition: 0.8s;
+}
+
+.box__link {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.item__ul {}
+
+.menu {}
+
+.block__item:nth-child(2) {
+    background-color: #f6f6f6;
+}
+
+.menu img {
+    width: 200px;
+    cursor: pointer;
+    opacity: 0%;
+}
+
+.item__ul:hover .menu img {
+    margin-left: 200px;
+    opacity: 100%;
+}
+
+.menu:nth-child(1) img {
+    transition: 0.8s;
+    padding-top: 20px;
+}
+
+.menu:nth-child(2) img {
+    transition: 1.5s;
+}
+
+.menu:nth-child(3) img {
+    transition: 2s;
+}
+
+.menu:active img {
+    width: 300px;
+    transition: 0.8s;
+}
+
+.moon:hover {
+    width: 500px;
+}
+
+.box__link:hover {
+    color: rgb(255, 245, 109);
+}
+
+.box__link:active {
+    color: #646cff;
+}
+
+body:hover .block__item {
+    margin-left: 500px;
+}
